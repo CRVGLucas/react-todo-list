@@ -1,0 +1,25 @@
+.todo {
+    width: 80vw;
+    padding: 5px;
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin-block: 0.125rem;
+    justify-content: space-between;
+}
+
+.todoTaskCheckContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.tasksStatusTitle{
+    font-size: 10px;
+}
+
+input[type="checkbox" i] {
+    background: transparent;
+    padding: 0.125rem;
+    border-radius: 8px;
+}
